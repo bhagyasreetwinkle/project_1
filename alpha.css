@@ -1,0 +1,298 @@
+@font-face{
+    font-family:"Azo Sans";
+    src:url(font/AzoSans-Medium.ttf);
+    font-weight:500;
+    font-style:normal;
+}
+@font-face{
+    font-family: "Azo Sans";
+    src:url(font/AzoSans-Regular.ttf);
+    font-weight:400;
+    font-style:normal;
+}
+@font-face{
+    font-family:"Azo Sans";
+    src:url(font/AzoSans-Bold.ttf);
+    font-weight:700;
+    font-style:normal;
+
+}
+body{
+    background-color: #2936A2;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+.midnav{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.nav-cont{
+    color:#fff !important;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size:10px;
+    /*padding-top:40px;*/
+}
+/*.nav-ele{
+    color:#70C618 !important;
+    text-decoration: none;
+    font-size:10px;
+    letter-spacing: 3px;
+}*/
+.nav-link{
+    transition: 0.3s normal;
+}
+.nav-link:hover{
+    color: #70c618 !important;
+    border-bottom: 1px solid #70c618;
+}
+.login{
+    color:#70C618;
+    font-size:12px;
+}
+.login:hover{
+    color: #70C618;
+    text-decoration: none;
+}
+
+.header-icon1{
+    border-radius: 50%;
+    border: 2px solid #70C618;
+    border-left-color: transparent;
+    padding: 3px;
+    margin-right: 5px;
+    color: #ffffff; 
+}
+.partner_heading{
+    font-family: 'Azo Sans';
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+}
+.partner_para{
+    font-family: 'Azo Sans';
+    font-size: 20px;
+    font-weight: 400;
+    color: #79C91B;
+}
+.animation{
+     position:relative;
+     animation: img 2s infinite linear;
+     animation-direction:normal;
+     transition:.1s all linear;
+ }
+        @keyframes img {
+        0%{left:0px; bottom:0px;}
+        50%{left:0px;bottom:75px}
+        100%{left:0px; bottom:5px;}
+
+        }
+/*-------cardssss------------*/
+.diamond-container{
+    position:relative;
+    z-index:1;
+    background-color: #20267B;
+    border-radius:30px;
+    height:250px;
+    width:250px;
+    padding:13px 13px 13px 13px;
+}
+.diamond{
+    background-color:#79C91B;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height:35px;
+    width:35px;
+    border-radius:10px;
+    transform:rotate(45deg);
+}
+.diamond-span{
+    /*display: inline-block;*/
+    text-align: center;
+    transform:rotate(-45deg);
+    color:#FFFFFF;
+}
+.card-head{
+    font-size:24px;
+    font-style: normal;
+    width: 150px;
+    color:#FFFFFF;
+    font-family: "Azo Sans";
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.partner-head{
+    color:#FFFFFF;
+    font-family:"Azo Sans";
+    font-weight:700;
+}
+.card-para{
+    color:#FFFFFF;
+    font-size:14px;
+    font-weight: 400;
+    font-family:"Azo Sans";
+}
+.white{
+    color: #ffffff;
+}
+/*f00terrrrrrrrrrr*/
+.footer-section{
+    padding-left:80px; 
+     
+      }
+    .footer-flex{
+        display:flex;
+        justify-content:center;  
+     
+    }
+        
+      
+    .footer-head{
+        font-family:"Azo Sans";
+        font-weight:700;
+        font-size:20px;
+        color:white; 
+        position:relative;
+
+    }
+  .footer-head::after{
+      position:absolute;
+      content:"";
+      top:50%;
+      left:0;
+      border-bottom:2px solid #79C91B;
+      width:105px;
+     
+  }
+  
+  .input{
+      font-family: "Azo Sans";
+      font-weight:400;
+      font-size:12px;
+      border-radius:30px;
+      border-width:0px;
+      width:210px;
+      height:40px;
+      padding:10px;
+      background-color:rgb(255, 255, 255,0.05);  
+      margin-bottom:10px; 
+  }
+   form .form::-webkit-input-placeholder { 
+      color: #FFFFFF;
+    }
+   
+    
+  
+  .button{
+      font-family:"Azo Sans";
+      font-weight:400;
+      font-size:12px;
+      color:#FFFFFF; 
+      border-radius:30px;
+      border-width:0px;
+      padding:10px;
+      width:210px;
+      height:40px;
+      background-color:#79C91B;
+      padding-left:20px;
+      display:flex;
+      justify-content: space-between;
+      letter-spacing: 2px;
+      
+  }
+      
+  .footer-para{
+      font-family: "Azo Sans";
+      font-weight:400;
+      font-size:14px;
+      color:#FFFFFF; 
+  }
+  
+  .contact-number{
+      color:#FFFFFF; 
+      transition:0.3s linear;
+  }
+  .contact-number:hover{
+      color:#79C91B;
+      text-decoration:none;
+  }
+  
+  .address{
+  
+      font-family:"Azo Sans";
+      font-weight:400;
+      font-size:14px;
+      color:#FFFFFF; 
+  }
+  .list-container{
+      list-style-type: none;
+      padding-left:0;
+  
+  }
+  .links{
+      font-family:"Azo Sans";
+      font-weight:400;
+      font-size:13px;
+      color:#FFFFFF; 
+      transition:.1s all linear;
+  }
+  .links:hover{
+      color:#79C91B;
+      text-decoration:none;
+  }
+  .icon{
+      color:white;
+      font-size:24px;
+      transition:.1s all linear;
+      text-decoration: none;
+  }
+  .icon:hover{
+      color:blue;
+  }
+  
+  .copyright{
+      color:white;
+  }
+  /* overlayyyyyyy */
+  .container1 {
+    position: relative;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    transition: .5s ease;
+    width: 100%;
+    height: 0;
+    border-radius: 30px;
+    z-index: -1;
+   /* background-image: url("Panel.png");*/
+
+  }
+  
+  .container1:hover .overlay {
+    height: 100%;
+
+  }
+  .container1:hover .card-head{
+    color: #0063C5;
+}
+  
+  
+  
+ 
+  
